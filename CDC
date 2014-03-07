@@ -30,4 +30,6 @@ Ces matrices peuvent être utilisés dans des applications très diverses, de ca
 
 	1.3 Critère d'acceptabilité du logiciel
 	
+	les matrices sont créées et les fonctions s'appliquant sur ces dernières s'exécutent normalement	
+	
 	
