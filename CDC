@@ -1,0 +1,33 @@
+Cahier des charges 
+
+
+Membre de l'équipe de la conception du projet constitué de 4 étudiants du CERI  Avignon :
+
+-MAGHNOUJI Zakaria
+-MABANO Amrani
+-FRANC Thomas
+-FAZIO Adrien
+
+
+Coordinateur :...
+Testeur : …
+Intégrateur : ….
+Programmeur :....
+
+Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices (P lignes > 1000 et N colonnes > 1000) creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.
+
+1 introduction
+
+	1.1 contexte
+
+	Projet développé lors de 6 séances de travaux pratiques de 3 heures du cours intitulé : « génie logiciel » . Ce logiciel s'inscrit dans le domaine des mathématiques et de l'algèbre.
+
+	1.2 objectifs
+
+	Il s'agit de développer un composant logiciel permettant de manipuler de très grandes matrices creuses dont le nombre de « zéros » devra remplir 95 % des cases de la matrice.
+Ces matrices peuvent être utilisés dans des applications très diverses, de calcul scientifique ou de traitement d'image par exemple. Elles peuvent prendre des formes très diversifiées. On peut entre autre faire une distinction entre les matrices pleines et les matrices creuses (qui sont principalement  composées de zéros mais pas uniquement).
+	On prendra le soin de développer une librairie supportant les opérations arithmétiques élémentaires, des opérations d'entrées/sorties(fichier et console).
+
+	1.3 Critère d'acceptabilité du logiciel
+	
+	
