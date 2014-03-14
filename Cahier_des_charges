@@ -29,11 +29,13 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
 
 2. Matériel
         
-        Pour développer cette librairie nous utiliserons divers outils. Le système d'exploitation sur lequel nous évoluerons est: Ubuntu 13.04.
+        Pour développer cette librairie nous utiliserons divers outils. Le système d'exploitation sur lequel nous 
+        évoluerons est: Ubuntu 13.04.
         Notre compilateur sera: g++ (Ubuntu/Linaro 4.7.3-1ubuntu1) 4.7.3.
-        Il n'y a pas de logiciel imposé pour le codage, chaque membre de l'équipe utilisera celui de son choix. On évitera
-        simplement les IDE au profit d'éditeurs de texte plus simplistes.
-        La documentation du code sera fournie à l'aide du générateur doxygen , qui permettra d'avoir une documentation homogène avec les "standards" utilisés de nos jours .
+        Il n'y a pas de logiciel imposé pour le codage, chaque membre de l'équipe utilisera celui de son choix. 
+        On évitera simplement les IDE au profit d'éditeurs de texte plus simplistes.
+        La documentation du code sera fournie à l'aide du générateur doxygen , qui permettra d'avoir une documentation 
+        homogène avec les "standards" utilisés de nos jours .
         Ceci servira à améliorer la compréhension et la réutilisabilité du code ; et engendrera une meilleure harmonie 
         entre les différents corps de la conception.
         Nous utiliserons le profiler intégré dans Ubuntu avec l'option -pg lors de la compilation et la commande gprof.
@@ -41,8 +43,26 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
 
 
 3. Besoins fonctionnels
-        Les spécifications fonctionnelles décrivent les fonctions (ou les opérations, ou encore les transformations) que le logiciel doit réaliser (voir 3).
-        Notre librairie proposera divers opérations arithmétiques élémentaires. 
+      
+        Notre librairie proposera divers opérations arithmétiques élémentaires.
+        
+        L'addition: deux opérations similaires seront possibles.
+        La première est l'addition de deux matrices, elle prendra deux matrices en argument et additionnera chaque case 
+        de la première matrice à celle de même position dans la seconde matrice. La contrainte qu'implique cette 
+        opération est que les deux matrices devront obligatoirement être de même dimension.
+        La deuxième consistera à additionner à chaque case d'une matrice passée en arguments un entier passé lui aussi 
+        en argument. Ici, la dimension de la matrice n'aura pas d'importance.
+        
+        Ensuite, la soustraction. Elle fonctionnera dans les mêmes conditions que l'addition. Elle aura également deux 
+        possibilités, la première sera de soustraire chaque case de la première matrice à la case équivalente de la 
+        deuxième.
+        La seconde, consistera à soustraire à chaque case de la matrice un entier.
+        
+        La troisième opération est la multliplication. L'utilisateur pourra effectuer la multiplication de deux matrices.
+        Cette opération créera une troisième matrice qui contiendra les résultats. Dans cette troisième matrice, le 
+        résultat situé dans la ligne i à la colonne j sera le produit de la ligne i de la première matrice par la colonne
+        j de la deuxième. Cette opération impose une contrainte: le nombre de colonne de la première matrice devra être 
+        égal au nombre de ligne de la deuxième.
 
 4. Besoins non fonctionnels
         Les spécifications non fonctionnelles sont toutes les spécifications qui n'expriment pas une fonction du logiciel. Ces spécifications expriment des contraintes (voir section 4).
@@ -50,7 +70,12 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
 
 5. Sous ensemble et priorités d'implémentation
         Cette section permet de définir d'éventuelles versions particulières du logiciel, versions correspondant à des sous-ensembles des spécifications décrites aux points 3, 4 et 5. Avoir rapidement certaines parties du logiciel opérationnelles peut être utile. Cette section permet, entre autre, de préciser un ordre de réalisation.
-
+        planning
+        phases de création du logiciels
+        création et affichage
+        version avec opérations les plus simplistes
+        puis livraison avec toutes les versions
+        
 6. Information de maintenance
         Il se peut que, une fois le logiciel opérationnel, certaines parties soient davantage susceptibles d'évoluer que d'autres (évolution du matériel, changement des besoins des utilisateurs, etc). L'indiquer dans le cahier des charges permet de construire le logiciel de manière à faciliter son évolution.
 
