@@ -1,4 +1,3 @@
-
 Cahier des charges 
 
 
@@ -23,6 +22,7 @@ creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéro
 
 Notre travail consistera à développer une librairie qui permettra d'effectuer des opérations arithmétiques élémentaires, des opérations d'entrée-sortie.
 
+Critère d'acceptabilité : le composant répond aux besoins fonctionnels ennoncés ci-après.
 
 2. Matériel
         Cette section permet de décrire le matériel particulier utilisé (par exemple certains périphériques), ainsi que les interfaces.
