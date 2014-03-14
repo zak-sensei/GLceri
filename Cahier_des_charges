@@ -10,6 +10,7 @@ Membre de l'équipe de la conception du projet constitué de 4 étudiants du CER
 
 
 1. Introduction
+
 Coordinateur :Thomas Franc
 Testeur : Zakaria Maghnouji
 Intégrateur : Amrani Mabano
@@ -17,30 +18,41 @@ Programmeur : Adrien Fazio
 
 Il s'agit de développer un composant logiciel permettant de manipuler de très grandes matrices creuses .
 
-Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices (P lignes > 1000 et N colonnes > 1000) 
-creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.Ce logiciel s'inscrit dans le domaine des mathématiques et de l'algèbre
+Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices 
+(P lignes > 1000 et N colonnes > 1000) creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.
+Ce logiciel s'inscrit dans le domaine des mathématiques et de l'algèbre.
 
-Notre travail consistera à développer une librairie qui permettra d'effectuer des opérations arithmétiques élémentaires, des opérations d'entrée-sortie.
+Notre travail consistera à développer une librairie qui permettra d'effectuer des opérations arithmétiques élémentaires, 
+des opérations d'entrée-sortie.
 
-Critère d'acceptabilité : le composant répond aux besoins fonctionnels ennoncés ci-après.
+Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennoncés ci-après.
 
 2. Matériel
-        Cette section permet de décrire le matériel particulier utilisé (par exemple certains périphériques), ainsi que les interfaces.
+        
+        Pour développer cette librairie nous utiliserons divers outils. Le système d'exploitation sur lequel nous évoluerons est: Ubuntu 13.04.
+        Notre compilateur sera: g++ (Ubuntu/Linaro 4.7.3-1ubuntu1) 4.7.3.
+        Il n'y a pas de logiciel imposé pour le codage, chaque membre de l'équipe utilisera celui de son choix. On évitera
+        simplement les IDE au profit d'éditeurs de texte plus simplistes.
+        La documentation du code sera fournie à l'aide du générateur doxygen , qui permettra d'avoir une documentation homogène avec les "standards" utilisés de nos jours .
+        Ceci servira à améliorer la compréhension et la réutilisabilité du code ; et engendrera une meilleure harmonie 
+        entre les différents corps de la conception.
+        Nous utiliserons le profiler intégré dans Ubuntu avec l'option -pg lors de la compilation et la commande gprof.
+        Nous ferons appel à la forge Github pour coordonner nos travaux.
 
-3. Modèle conceptuel
-        Le modèle conceptuel donne une vue d'ensemble du logiciel à réaliser (voir 2).
 
-4. Besoins fonctionnels
+3. Besoins fonctionnels
         Les spécifications fonctionnelles décrivent les fonctions (ou les opérations, ou encore les transformations) que le logiciel doit réaliser (voir 3).
+        Notre librairie proposera divers opérations arithmétiques élémentaires. 
 
-5. Besoins non fonctionnels
+4. Besoins non fonctionnels
         Les spécifications non fonctionnelles sont toutes les spécifications qui n'expriment pas une fonction du logiciel. Ces spécifications expriment des contraintes (voir section 4).
 
-6. Sous ensemble et priorités d'implémentation
+
+5. Sous ensemble et priorités d'implémentation
         Cette section permet de définir d'éventuelles versions particulières du logiciel, versions correspondant à des sous-ensembles des spécifications décrites aux points 3, 4 et 5. Avoir rapidement certaines parties du logiciel opérationnelles peut être utile. Cette section permet, entre autre, de préciser un ordre de réalisation.
 
-7. Information de maintenance
+6. Information de maintenance
         Il se peut que, une fois le logiciel opérationnel, certaines parties soient davantage susceptibles d'évoluer que d'autres (évolution du matériel, changement des besoins des utilisateurs, etc). L'indiquer dans le cahier des charges permet de construire le logiciel de manière à faciliter son évolution.
 
-8. Glossaire
+7. Glossaire
         Le glossaire contient la définition des termes techniques utilisés dans le cahier des charges. Il ne faut supposer aucune connaissance technique particulière de la part du client auquel est destiné le cahier des charges. 
