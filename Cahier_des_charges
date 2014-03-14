@@ -46,23 +46,24 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
       
         Notre librairie proposera divers opérations arithmétiques élémentaires.
         
-        L'addition: deux opérations similaires seront possibles.
         La première est l'addition de deux matrices, elle prendra deux matrices en argument et additionnera chaque case 
         de la première matrice à celle de même position dans la seconde matrice. La contrainte qu'implique cette 
         opération est que les deux matrices devront obligatoirement être de même dimension.
-        La deuxième consistera à additionner à chaque case d'une matrice passée en arguments un entier passé lui aussi 
-        en argument. Ici, la dimension de la matrice n'aura pas d'importance.
         
-        Ensuite, la soustraction. Elle fonctionnera dans les mêmes conditions que l'addition. Elle aura également deux 
-        possibilités, la première sera de soustraire chaque case de la première matrice à la case équivalente de la 
-        deuxième.
-        La seconde, consistera à soustraire à chaque case de la matrice un entier.
+        Ensuite, la soustraction. Elle fonctionnera dans les mêmes conditions que l'addition.Elle soustraira chaque case
+        de la première matrice à la case équivalente de la deuxième.
         
         La troisième opération est la multliplication. L'utilisateur pourra effectuer la multiplication de deux matrices.
         Cette opération créera une troisième matrice qui contiendra les résultats. Dans cette troisième matrice, le 
         résultat situé dans la ligne i à la colonne j sera le produit de la ligne i de la première matrice par la colonne
         j de la deuxième. Cette opération impose une contrainte: le nombre de colonne de la première matrice devra être 
         égal au nombre de ligne de la deuxième.
+        La deuxième multiplication possible consistera à multiplier chaque case d'une matrice à un entier.
+        
+        Notre librairie permettra également de calculer le carré d'une matrice, en multipliant chaque case d'une matrice
+        à elle même.
+        
+        Ensuite, on pourra obtenir la transposée d'une matrice. Celle-ci créera une deuxième matrice dans laquelle les 
 
 4. Besoins non fonctionnels
         Les spécifications non fonctionnelles sont toutes les spécifications qui n'expriment pas une fonction du logiciel. Ces spécifications expriment des contraintes (voir section 4).
