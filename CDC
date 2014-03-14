@@ -51,7 +51,8 @@ creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zér
 		
 		2.2.1 La documentation Doxygen
 		
-		doxygen
+		La docmuentation du code sera fournie à l'aide du générateur doxygen , qui permettra d'avoir une documentation homogène avec les "standards" utilisés de nos jours .
+		Ceci servira à améliorer la compréhension et la réutilisabilité du code ; et engendrera une meilleure harmonie entre les différents corps de la conception .  
 		
 		2.2.2 L'outils de profiling
 		outil de profiling
