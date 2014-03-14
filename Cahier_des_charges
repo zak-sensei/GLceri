@@ -60,6 +60,8 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
         égal au nombre de ligne de la deuxième.
         La deuxième multiplication possible consistera à multiplier chaque case d'une matrice à un entier.
         
+        La division de chaque case d'une matrice par un entier sera également possible.
+        
         Notre librairie permettra également de calculer le carré d'une matrice, en multipliant chaque case d'une matrice
         à elle même.
         
@@ -89,6 +91,22 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
         création et affichage
         version avec opérations les plus simplistes
         puis livraison avec toutes les versions
+        
+        Notre librairie sera développée en plusieurs étapes réparties en périodes variables.
+        
+        Premièrement, nous allons imaginer la structure de nos matrices pendant environ 1 semaine.
+        Ensuite, nous allons implémenter les méthodes de création et d'affichage des matrices grâce à des fichiers .txt
+        sur une durée de 1 semaine. 
+        
+        Puis, nous commencerons à développer les fonctions d'addition, de soustraction, de multiplication, de division
+        et de calcul de transposée durant 2 semaines et demie.
+        
+        Ensuite, 3 semaines pour tester les performances de notre librairies, l'améliorer si besoin et éventuellement y 
+        apporter des modifications en ajoutant des fonctionnalités.
+        
+        
+        
+        
         
 6. Information de maintenance
         Il se peut que, une fois le logiciel opérationnel, certaines parties soient davantage susceptibles d'évoluer que d'autres (évolution du matériel, changement des besoins des utilisateurs, etc). L'indiquer dans le cahier des charges permet de construire le logiciel de manière à faciliter son évolution.
