@@ -85,12 +85,6 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
         Une autre fonction pourrait indiquer si une matrice est inversible, et calculer son inverse si c'est le cas.
 
 5. Sous ensemble et priorités d'implémentation
-        Cette section permet de définir d'éventuelles versions particulières du logiciel, versions correspondant à des sous-ensembles des spécifications décrites aux points 3, 4 et 5. Avoir rapidement certaines parties du logiciel opérationnelles peut être utile. Cette section permet, entre autre, de préciser un ordre de réalisation.
-        planning
-        phases de création du logiciels
-        création et affichage
-        version avec opérations les plus simplistes
-        puis livraison avec toutes les versions
         
         Notre librairie sera développée en plusieurs étapes réparties en périodes variables.
         
@@ -104,9 +98,12 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
         Ensuite, 3 semaines pour tester les performances de notre librairies, l'améliorer si besoin et éventuellement y 
         apporter des modifications en ajoutant des fonctionnalités.
         
+        Notre librairie sera donc disponible à travers 3 versions au cours du temps, la première contiendra les fonctionnalités
+        de création et d'affichage des matrices, la deuxième permettra d'effectuer les opérations élémentaires d'addition,
+        de soustraction, multiplication, de division et de transposée et la dernière version sera la plus performante,
+        efficace et comportera éventuellement des fonctionnalités supplémentaires.
         
-        
-        
+        La version finale de la librairie sera accompagnée d'un manuel utilisateur et d'un rapport de test.
         
 6. Information de maintenance
         Il se peut que, une fois le logiciel opérationnel, certaines parties soient davantage susceptibles d'évoluer que d'autres (évolution du matériel, changement des besoins des utilisateurs, etc). L'indiquer dans le cahier des charges permet de construire le logiciel de manière à faciliter son évolution.
