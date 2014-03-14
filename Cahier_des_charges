@@ -1,5 +1,28 @@
+
+Cahier des charges 
+
+
+Membre de l'équipe de la conception du projet constitué de 4 étudiants du CERI  Avignon :
+
+-MAGHNOUJI Zakaria
+-MABANO Amrani
+-FRANC Thomas
+-FAZIO Adrien
+
+
 1. Introduction
-         L'introduction présente le logiciel à réaliser en terme de besoins (à quoi va servir le logiciel), et décrit brièvement ses fonctions principales. L'introduction permet également de présenter les éventuelles notations utilisées dans la suite du document ainsi que le plan de ce même document.
+Coordinateur :Thomas Franc
+Testeur : Zakaria Maghnouji
+Intégrateur : Amrani Mabano
+Programmeur : Adrien Fazio
+
+Il s'agit de développer un composant logiciel permettant de manipuler de très grandes matrices creuses .
+
+Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices (P lignes > 1000 et N colonnes > 1000) 
+creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.Ce logiciel s'inscrit dans le domaine des mathématiques et de l'algèbre
+
+Notre travail consistera à développer une librairie qui permettra d'effectuer des opérations arithmétiques élémentaires, des opérations d'entrée-sortie.
+
 
 2. Matériel
         Cette section permet de décrire le matériel particulier utilisé (par exemple certains périphériques), ainsi que les interfaces.
