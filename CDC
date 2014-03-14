@@ -14,22 +14,56 @@ Testeur : …
 Intégrateur : ….
 Programmeur :....
 
-Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices (P lignes > 1000 et N colonnes > 1000) creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.
+Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices (P lignes > 1000 et N colonnes > 1000) 
+creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.
 
 1 introduction
 
 	1.1 contexte
 
-	Projet développé lors de 6 séances de travaux pratiques de 3 heures du cours intitulé : « génie logiciel » . Ce logiciel s'inscrit dans le domaine des mathématiques et de l'algèbre.
+	Projet développé lors de 6 séances de travaux pratiques de 3 heures du cours intitulé : « génie logiciel » . 
+	Ce logiciel s'inscrit dans le domaine des mathématiques et de l'algèbre.
 
 	1.2 objectifs
 
-	Il s'agit de développer un composant logiciel permettant de manipuler de très grandes matrices creuses dont le nombre de « zéros » devra remplir 95 % des cases de la matrice.
-Ces matrices peuvent être utilisés dans des applications très diverses, de calcul scientifique ou de traitement d'image par exemple. Elles peuvent prendre des formes très diversifiées. On peut entre autre faire une distinction entre les matrices pleines et les matrices creuses (qui sont principalement  composées de zéros mais pas uniquement).
-	On prendra le soin de développer une librairie supportant les opérations arithmétiques élémentaires, des opérations d'entrées/sorties(fichier et console).
-
+	Il s'agit de développer un composant logiciel permettant de manipuler de très grandes matrices dont le nombre de lignes et de colonnes
+	dépassera 1000.	Ces matrices peuvent être utilisées dans des applications très diverses, de calcul scientifique ou de traitement d'image par exemple. 
+	Elles peuvent prendre des formes très diversifiées. On distinguera 2 types de matrices: les matrices pleines et les matrices creuses.
+	Les matrices creuses sont des matrices composées essentiellement de 0. Cette valeur représentera environ 95% des cases de la matrice.
+	
+	Notre travail consistera à développer une librairie qui permettra d'effectuer des opérations arithmétiques élémentaires, des opérations d'entrée-sortie
+	(fichier/console) et une calculette simple.
+	
 	1.3 Critère d'acceptabilité du logiciel
 	
-	les matrices sont créées et les fonctions s'appliquant sur ces dernières s'exécutent normalement	
+	les matrices sont créées et les fonctions s'appliquant sur ces dernières s'exécutent normalement
+	
+2 Organisation du projet
+	
+	2.1 Planning
+	
+		Notre librairie sera livrée le 15 mai 2014.
+		temps prévu pour imaginer la structure de notre programme
+		temps prévu pour coder
+		temps prévu pour la période de test
+		
+	2.2 Moyens (logiciels)
+		
+		2.2.1 La documentation Doxygen
+		doxygen
+		
+		2.2.2 L'outils de profiling
+		outil de profiling
+		
+		2.2.3 Le gestionnaire de versions
+		gestionnaire de versions
+	
+3 La librairie
+	
+	3.1 Les opérations arithmétiques élémentaires
+	
+	3.2 Les opérations d'entrée-sortie
+	
+	3.3 La calculette simple
 	
 	
