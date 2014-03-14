@@ -63,7 +63,12 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
         Notre librairie permettra également de calculer le carré d'une matrice, en multipliant chaque case d'une matrice
         à elle même.
         
-        Ensuite, on pourra obtenir la transposée d'une matrice. Celle-ci créera une deuxième matrice dans laquelle les 
+        Ensuite, on pourra obtenir la transposée d'une matrice. Celle-ci créera une deuxième matrice dans laquelle les
+        lignes deviennent les colonnes et les colonnes deviennent les lignes. Les valeurs sont donc inversées.
+        
+        Elle gèrera les entrées-sorties dans un fichier. Elle permettra donc de lire dans un fichier .txt les valeurs
+        à insérer dans une matrice creuse. Elle pourra également écrire dans un fichier .txt les valeurs des cases
+        où il n'y pas de 0.
 
 4. Besoins non fonctionnels
         Les spécifications non fonctionnelles sont toutes les spécifications qui n'expriment pas une fonction du logiciel. Ces spécifications expriment des contraintes (voir section 4).
