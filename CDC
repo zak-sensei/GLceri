@@ -10,9 +10,9 @@ Membre de l'équipe de la conception du projet constitué de 4 étudiants du CER
 
 
 Coordinateur :Thomas Franc
-Testeur : …
-Intégrateur : ….
-Programmeur :....
+Testeur : Zakaria Maghnouji
+Intégrateur : Amrani Mabano
+Programmeur : Adrien Fazio
 
 Résumé : logiciel en ligne de commande (avec accès fichier) qui manipule de très grande matrices (P lignes > 1000 et N colonnes > 1000) 
 creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zéros.
