@@ -71,8 +71,16 @@ Critères d'acceptabilité : le composant répond aux besoins fonctionnels ennon
         où il n'y pas de 0.
 
 4. Besoins non fonctionnels
-        Les spécifications non fonctionnelles sont toutes les spécifications qui n'expriment pas une fonction du logiciel. Ces spécifications expriment des contraintes (voir section 4).
-
+        
+        Des opérations pourraient être éventuellement ajoutées à notre librairie si nous avons le temps et les moyens.
+        
+        Premièrement, une interface graphique pourrait intervenir pour faciliter l'utilisation de la librairie et la 
+        rendre plus accessible.
+        
+        Ensuite, une fonctionnalité pourrait être créée, elle permettrait de rechercher une valeur particulière dans une
+        matrice et son occurrence si elle apparait plusieurs fois.
+        
+        Une autre fonction pourrait indiquer si une matrice est inversible, et calculer son inverse si c'est le cas.
 
 5. Sous ensemble et priorités d'implémentation
         Cette section permet de définir d'éventuelles versions particulières du logiciel, versions correspondant à des sous-ensembles des spécifications décrites aux points 3, 4 et 5. Avoir rapidement certaines parties du logiciel opérationnelles peut être utile. Cette section permet, entre autre, de préciser un ordre de réalisation.
