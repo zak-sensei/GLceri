@@ -50,6 +50,7 @@ creuses c'est-à-dire que les cases de la matrice doivent contenir 95 % de zér
 	2.2 Moyens (logiciels)
 		
 		2.2.1 La documentation Doxygen
+		
 		doxygen
 		
 		2.2.2 L'outils de profiling
