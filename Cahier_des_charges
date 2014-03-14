@@ -1,0 +1,23 @@
+1. Introduction
+         L'introduction présente le logiciel à réaliser en terme de besoins (à quoi va servir le logiciel), et décrit brièvement ses fonctions principales. L'introduction permet également de présenter les éventuelles notations utilisées dans la suite du document ainsi que le plan de ce même document.
+
+2. Matériel
+        Cette section permet de décrire le matériel particulier utilisé (par exemple certains périphériques), ainsi que les interfaces.
+
+3. Modèle conceptuel
+        Le modèle conceptuel donne une vue d'ensemble du logiciel à réaliser (voir 2).
+
+4. Besoins fonctionnels
+        Les spécifications fonctionnelles décrivent les fonctions (ou les opérations, ou encore les transformations) que le logiciel doit réaliser (voir 3).
+
+5. Besoins non fonctionnels
+        Les spécifications non fonctionnelles sont toutes les spécifications qui n'expriment pas une fonction du logiciel. Ces spécifications expriment des contraintes (voir section 4).
+
+6. Sous ensemble et priorités d'implémentation
+        Cette section permet de définir d'éventuelles versions particulières du logiciel, versions correspondant à des sous-ensembles des spécifications décrites aux points 3, 4 et 5. Avoir rapidement certaines parties du logiciel opérationnelles peut être utile. Cette section permet, entre autre, de préciser un ordre de réalisation.
+
+7. Information de maintenance
+        Il se peut que, une fois le logiciel opérationnel, certaines parties soient davantage susceptibles d'évoluer que d'autres (évolution du matériel, changement des besoins des utilisateurs, etc). L'indiquer dans le cahier des charges permet de construire le logiciel de manière à faciliter son évolution.
+
+8. Glossaire
+        Le glossaire contient la définition des termes techniques utilisés dans le cahier des charges. Il ne faut supposer aucune connaissance technique particulière de la part du client auquel est destiné le cahier des charges. 
