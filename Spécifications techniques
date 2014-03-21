@@ -1,0 +1,55 @@
+Spécifications Techniques
+
+
+1)Variables:
+
+*incrémentation: i++
+*appellation des variables:
+	-en français
+	-variables sur plusieurs mots: séparés par des underscores, et chaque nouveau mot 	commence par une majuscule
+*Dans les boucles for, les variables utilisées seront i et j dans la mesure du possible
+
+2)Fonctions:
+
+*appellation:
+	-en français
+	-commencent par des minuscules
+	-fonction de maximum un mot
+
+3)Classes:
+
+*commencent par des majuscules
+*sur un seul mot
+*il y aura 2 classes:
+	-1 correspondant aux matrices se remplissant aléatoirement
+	-1 correspondant aux matrices se remplissant en lisant dans un fichier .txt
+
+4)Fichiers sources:
+
+*le nom des fichiers sera le même nom que la classe à laquelle ils sont liés
+*4 fichiers
+	-1 .h correspondant à la classe des matrices se remplissant aléatoirement
+	-1 .h correspondant à la classe des matrices se remplissant en lisant dans un fichier .txt
+	-1 .cpp contenant les fonctions de la classe des matrices se remplissant aléatoirement
+	-1 .cpp contenant les fonctions de la classe des  matrices se remplissant en lisant dans un fichier .txt
+
+5)Fichiers .txt:
+
+Les fichiers .txt dans les lesquels notre librairie lira seront remplis de la manière suivante :
+
+«nb_Lignes;nb_Colonnes;nb_Cases_Remplies
+ligne;colonne;valeur
+.
+.
+.»
+
+
+
+où nb_Lignes est le nombre de lignes de la matrice
+     nb_Colonnes est le nombre de colonnes de la matrice
+     nb_Cases_Remplies est le nombre de cases qui ne contiendront pas de 0
+     ligne est l'indice de la ligne dans la matrice
+     colonne est l'indice de la colonne dans la matrice
+     valeur est la valeur se trouvant dans la case de la matrice correspondant aux indices ligne et colonne
+
+Toutes les valeurs différentes de 0 seront écrites dans le fichier suivant le modèle de la ligne 2.
